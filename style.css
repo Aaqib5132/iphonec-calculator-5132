@@ -178,11 +178,11 @@ span {
     /* start of phone styles */
     .container {
         width: 100vw;
-        height: 100vh;
+        height: 95vh;
        
     }
     .input{
-        padding: 0px 10px;
+        padding: 0px 20px;
     ;
     }
 

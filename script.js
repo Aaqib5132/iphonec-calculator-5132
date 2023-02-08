@@ -2,7 +2,7 @@ let string = "";
 let buttons = document.querySelectorAll('.number')
 buttons.forEach((btn) =>{
     btn.addEventListener('click',(no) =>{
-        // console.log("i m clicked")
+        console.log("i m clicked",no.target)
         if(no.target.innerHTML == '='){
             string = eval(string);
             document.querySelector('input').value = string;

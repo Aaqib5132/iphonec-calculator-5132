@@ -176,13 +176,16 @@ span {
 @media screen and (max-width: 479px) {
 
     /* start of phone styles */
+    .main-container{
+        height: 95vh;
+    }
     .container {
-        width: 100vw;
-        height: 85vh;
+        width: 100%;
+        height: 100%;
        
     }
     .input{
-        padding: 0px 20px;
+        padding: 0px 40px;
     ;
     }
 
